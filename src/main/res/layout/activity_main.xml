@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_0"
+    android:orientation="horizontal"
+    tools:context="com.example.kpp2.usmilitarydefense.MainActivity">
+
+    <!-- this whole Relativelayout pertains to the top blue bar on screen-->
+    <RelativeLayout
+        android:id="@+id/activity_main_title"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/americanflag">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="US Military Defense"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+
+
+    </RelativeLayout>
+
+
+
+    <!-- this linearLayout pertains to bottom white bar on screen-->
+    <LinearLayout
+        android:id="@+id/activity_main_tool"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@android:color/black">
+
+        <!--Demo Button-->
+        <TextView
+            android:id="@+id/activity_tool_demo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/homenew"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05"
+            android:background="@android:color/darker_gray"></View>
+
+        <!--work button-->
+        <TextView
+            android:id="@+id/activity_tool_work"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:background="@mipmap/aboutnew"/>
+
+    </LinearLayout>
+
+    <!--this changes the area between the (brightBlue)top and (white)bottom bars -->
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:id="@+id/activity_main_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/activity_main_title"
+        android:layout_above="@+id/activity_main_tool"
+        android:background="@android:color/darker_gray"
+        ></LinearLayout>
+
+
+
+</RelativeLayout>

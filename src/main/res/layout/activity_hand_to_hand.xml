@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.kpp2.usmilitarydefense.util.HandtoHandActivity"
+    android:id="@+id/h2hcombat">
+
+
+
+    <TextView
+        android:id="@+id/TitleK"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:text="Hand-to-Hand Combat" />
+
+    <ImageView
+        android:id="@+id/h2h_combat"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/h2h"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="10dp"
+        android:text="@string/h2h1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:text="@string/h2h2"
+        android:padding="10dp"/>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/activity_b_to_b"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="H2H"
+            android:onClick="activityBButton"/>
+        <Button
+            android:id="@+id/activity_b_to_c"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="Firearms"
+            android:onClick="activityCButton"/>
+        <Button
+            android:id="@+id/activity_b_to_d"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="Air-Strikes"
+            android:onClick="activityDButton"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

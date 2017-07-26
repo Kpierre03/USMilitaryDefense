@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kpp2.usmilitarydefense">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".util.SituationalAwarenessActivity" />
+        <activity android:name=".ArmedDefenseActivity" />
+        <activity
+            android:name=".util.HandtoHandActivity"
+            android:launchMode="standard" />
+        <activity
+            android:name=".util.FirearmsActivity"
+            android:launchMode="standard" />
+        <activity
+            android:name=".util.AirstrikesActivity"
+            android:launchMode="standard" />
+        <activity android:name=".util.HelpActivity" />
+        <activity android:name=".util.QuizYourselfActivity" />
+        <activity android:name="dialog.CustomDialog2" />
+        <activity android:name="dialog.CustomDialog3" />
+        <activity android:name=".util.GestureActivity" />
+        <activity android:name=".util.ServiceActivity" />
+        <activity android:name=".util.HandlerExampleActivity"></activity>
+        <service android:name="com.example.kpp2.usmilitarydefense.service.TestService"/>
+    </application>
+
+</manifest>

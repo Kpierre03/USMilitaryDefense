@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <TextView
+        android:id="@+id/dialog_custom_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Question 2 goes here"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:background="@android:color/white"
+        android:gravity="center"/>
+
+
+
+
+    <RadioGroup
+        android:id="@+id/Quiz3_dialog_rdg2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <RadioButton
+            android:id="@+id/quiz3_yes2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Answer 1"
+            />
+
+        <RadioButton
+            android:id="@+id/quiz3_No2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Answer 2"
+            />
+        <RadioButton
+            android:id="@+id/quiz3_exit2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Answer 3"
+            />
+
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/dialog_quiz3_ok2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:gravity="center"
+
+            android:text="Ok"
+
+            />
+
+        <Button
+            android:id="@+id/dialog_quiz3_Cancel2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:text="Cancel"
+            android:textColor="@android:color/black"
+            android:background="@android:color/white"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

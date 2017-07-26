@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/sealofusaf"
+    tools:context="com.example.susancarrera.personaldefense.com.example.kpp2.usmilitarydefense.personaldefense.fragment.AirForceFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="AIR POWER"
+        android:textSize="75sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+</FrameLayout>

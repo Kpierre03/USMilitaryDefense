@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.susancarrera.personaldefense.com.example.kpp2.usmilitarydefense.personaldefense.QuizYourselfActivity">
+
+
+    <RadioGroup
+        android:id="@+id/activity_dialog_rdg"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+
+        <RadioButton
+            android:id="@+id/activity_dialog_rb1"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="Click Me First for Instructions"/>
+
+        <RadioButton
+            android:id="@+id/activity_dialog_rb2"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="Question 1"/>
+        <RadioButton
+            android:id="@+id/activity_dialog_rb3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="Question 2"/>
+        <RadioButton
+            android:id="@+id/activity_dialog_rb4"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:gravity="left|center_vertical"
+            android:text="Question 3"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/activity_dialog_ok"
+        android:layout_width="368dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="OK"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+
+</LinearLayout>

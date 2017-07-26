@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.susancarrera.personaldefense.com.example.kpp2.usmilitarydefense.personaldefense.fragment.ArmedForcesPicFragment"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:text="Click to animate(does not animate)"-->
+    <!--android:textSize="23sp"-->
+    <!--android:gravity="center_horizontal"/>-->
+
+
+
+    <ImageView
+        android:id="@+id/armedforces.jpg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@mipmap/armedforces"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/animator_alpha1"
+        android:layout_height="100dp"
+        android:layout_width="110dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="click me"/>
+</RelativeLayout>

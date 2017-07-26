@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">US Military Defense</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="h2h1"> Hand-to-hand combat (sometimes abbreviated as HTH or H2H) is a lethal or non-lethal physical confrontation between two or more persons at very short range (grappling distance) that does not involve the use of firearms or other distance weapons.</string>
+    <string name="h2h2">While the phrase "hand-to-hand" appears to refer to unarmed combat, the term is generic and may include use of striking weapons used at grappling distance such as knives, sticks, batons, or improvised weapons such as entrenching tools </string>
+
+
+</resources>
